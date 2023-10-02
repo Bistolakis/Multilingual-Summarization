@@ -1,4 +1,4 @@
-# Multilingual-Summarization
+# Multilingual Abstractive Text Summarization
 
 Natural language processing has grown a lot in the modern age of Big Data. One of the major
 goals of the scientific community is the creation of abstract summaries from machines.
@@ -24,5 +24,5 @@ in the West Germanic family and is in the three most spoken West Germanic langua
 Italian was chosen because they belong to the family of Latin languages and have
 lexical similarity 82%.
 
-###kapa
+
 
