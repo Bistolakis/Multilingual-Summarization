@@ -16,11 +16,12 @@ the summaries are improved compared to models which where trained in each langua
 separately. As a conclusion, it is preferable by the scientific community to use multilingual
 models since they are more efficient and useful as well.
 
-# DATA Selection
+## DATA Selection
 The multilingual mT5 model is used, the languages that will be combined during training are a) German, Dutch and English, B)
 Italian and Spanish. The first three languages were chosen as they belong to
-in the West Germanic family and is in the three most spoken West Germanic languages. The first most spoken language is English, then German, and
-No More Dutch. German has a lexical similarity to Dutch which close to
-80%, while with English the similarity of words is 60% . In Spanish and
+in the West Germanic family and is in the three most spoken West Germanic languages. The first most spoken language is English, then German and Dutch. German has a lexical similarity to Dutch which close to
+80%, while with English the similarity of words is 60%. Spanish and
 Italian was chosen because they belong to the family of Latin languages and have
 lexical similarity 82%.
+
+
