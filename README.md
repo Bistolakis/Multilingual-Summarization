@@ -42,6 +42,9 @@ Exploring the similarity of Italian-Spanish, three models are trained, an Italia
 As shown in the Italian test table, the Italian-Spanish model has been trained once in Italian data and achieves better metrics in summary than the Italian_Tho_EP model which requires the same training time. When checking Spanish data it is evident that when using the whole set of data we get better results, but the Italian Spanish model achieves close results with a decrease of only 0.58 on average absolute
 value in all measurements. This shows that lexical similarity between languages helps when we don't have a lot of data, and that it can be used as additional data for summary purposes. Models like MT5 models take advantage of multilinguality and lexical similarity between languages, producing satisfactory close or better results in less time. As the Italian-spanish model requires 50% of the training time compared to the above two models together and has half of the Spanish language data.
 
+More details on this research can be found here  as well as details on how models like these perceive and process natural language.
+
+
 
 
 
