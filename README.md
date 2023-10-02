@@ -34,7 +34,11 @@ Italian was chosen because they belong to the family of Latin languages and have
 lexical similarity 82%.
 
 ## Results
+In this section will be presented only the Italian - Spanish language models.
+
+Exploring the similarity of Italian-Spanish, three models are trained, an Italian model with 40 thousand data, a Spanish model with 80 thousand data and a Spanish-Italian model with a total of 80 thousand data, in this case only half of Spanish data is used. With this, Spanish is tested with less data and all models are compared in the same training steps. 
 ![image](https://github.com/Bistolakis/Multilingual-Summarization/assets/146676489/52baa9a4-8650-4fcc-9d37-2813c2f55ff1)
+As shown in the Italian test table, the Italian-Spanish model has been trained once in Italian data and achieves better metrics in summary than the Italian_Tho_EP model which requires the same training time. 
 
 
 
