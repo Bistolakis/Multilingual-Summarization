@@ -15,14 +15,27 @@ related languages to train multilingual models is more efficient, because in les
 the summaries are improved compared to models which where trained in each language
 separately. As a conclusion, it is preferable by the scientific community to use multilingual
 models since they are more efficient and useful as well.
+## Model
+MT5 is an extension of the T5 encoder decoder model, in particular it is a multilingual model trained in 101 languages in the new mC4 dataset by Common Crawl corpus. The new version is considerably larger, increasing both the dimension of embendings and linear layers in the model, with the smaller model containing 300 million parameters. In pre-training it does not contain supervised methods such as T5, only it is trained with Span language Modeling and therefore needs to be further trained before it is used in natural language processing. For the production of the dictionary, The Sentence Peice was used and the number of tokens of the dictionary is 250,000. The hyperparameters in the pre-training are the same as in the T5 model. MT5 uses relative distances to encode the positions of words. This means that the size of the input is not strictly defined, unlike mBart which
+it is used for the same dataset, with input to 1024 tokens. A larger size is used here, the input of the model is set at 1100 tokens, while the output at 140. With this filter, tokens are removed from the input to 16% of the
+texts. It is worth mentioning that the average in tokens is 612 for the input and
+42 for the output.
 
-## DATA Selection
-The multilingual mT5 model is used, the languages that will be combined during training are a) German, Dutch and English, B)
+## DATA Selection 
+The data comes from the Wikilingua dataset, which it is presented in 2020. WikiLingua is a set of parallel text-summary pairs
+translated into 18 languages. In addition
+it is a fairly qualitative set, as the summaries and translations come from
+from the WIkiHow page that have been created and studied by groups of columnists something very important and especially in the
+abstract summarization. The languages that will be combined during training are a) German, Dutch and English, B)
 Italian and Spanish. The first three languages were chosen as they belong to
 in the West Germanic family and is in the three most spoken West Germanic languages. The first most spoken language is English, then German and Dutch. German has a lexical similarity to Dutch which close to
 80%, while with English the similarity of words is 60%. Spanish and
 Italian was chosen because they belong to the family of Latin languages and have
 lexical similarity 82%.
+
+## Results
+![image](https://github.com/Bistolakis/Multilingual-Summarization/assets/146676489/52baa9a4-8650-4fcc-9d37-2813c2f55ff1)
+
 
 
 
