@@ -24,4 +24,5 @@ in the West Germanic family and is in the three most spoken West Germanic langua
 Italian was chosen because they belong to the family of Latin languages and have
 lexical similarity 82%.
 
+###kapa
 
