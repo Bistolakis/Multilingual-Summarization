@@ -39,8 +39,8 @@ In this section will be presented only the Italian - Spanish language models.
 Exploring the similarity of Italian-Spanish, three models are trained, an Italian model with 40 thousand data, a Spanish model with 80 thousand data and a Spanish-Italian model with a total of 80 thousand data, in this case only half of Spanish data is used. With this, Spanish is tested with less data and all models are compared in the same training steps. 
 ![image](https://github.com/Bistolakis/Multilingual-Summarization/assets/146676489/52baa9a4-8650-4fcc-9d37-2813c2f55ff1)
 
-As shown in the Italian test table, the Italian-Spanish model has been trained once in Italian data and achieves better metrics in summary than the Italian_Tho_EP model which requires the same training time. 
-
+As shown in the Italian test table, the Italian-Spanish model has been trained once in Italian data and achieves better metrics in summary than the Italian_Tho_EP model which requires the same training time. When checking Spanish data it is evident that when using the whole set of data we get better results, but the Italian Spanish model achieves close results with a decrease of only 0.58 on average absolute
+value in all measurements. This shows that lexical similarity between languages helps when we don't have a lot of data, and that it can be used as additional data for summary purposes. Models like MT5 models take advantage of multilinguality and lexical similarity between languages, producing satisfactory close or better results in less time. As the Italian-spanish model requires 50% of the training time compared to the above two models together and has half of the Spanish language data
 
 
 
